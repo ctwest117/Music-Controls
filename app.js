@@ -1,44 +1,44 @@
 //playlist
 const SONGS = [
   {
-    name: "Castle of Glass",
-    src: "./mp3/castle-of-glass.mp3",
+    name: "We used To Dance",
+    src: "./music/HoliznaCC0 - We used To Dance.mp3",
   },
   {
-    name: "Eye of the Tiger",
-    src: "./mp3/Eye of the Tiger.mp3",
+    name: "Waves",
+    src: "./music/HoliznaCC0 - Waves.mp3",
   },
   {
-    name: "Levitating",
-    src: "./mp3/Dua Lipa - Levitating (Live From Mexico) - Dua Lipa.mp3",
+    name: "Tunez",
+    src: "./music/HoliznaCC0 - Tunez.mp3",
   },
   {
-    name: "The Chain",
-    src: "./mp3/The Chain.mp3",
+    name: "There Ain't Nothin",
+    src: "./music/HoliznaCC0 - There Ain't Nothin.mp3",
   },
   {
-    name: "So Cold",
-    src: "./mp3/So Cold (Remix).mp3",
+    name: "Night Life",
+    src: "./music/HoliznaCC0 - Night Life.mp3",
   },
   {
-    name: "Unethical",
-    src: "./mp3/Unethical (Maphra Cover).mp3",
+    name: "Morning Coffee",
+    src: "./music/HoliznaCC0 - Morning Coffee.mp3",
   },
   {
-    name: "Take",
-    src: "./mp3/Take.mp3",
+    name: "Machines With Feelings",
+    src: "./music/HoliznaCC0 - Machines With Feelings.mp3",
   },
   {
-    name: "Kill Me Fast",
-    src: "./mp3/Kill Me Fast.mp3",
+    name: "Lost In Space",
+    src: "./music/HoliznaCC0 - Lost In Space.mp3",
   },
   {
-    name: "Hymn For The Weekend",
-    src: "./mp3/Hymn For The Weekend.mp3",
+    name: "Exploring Tomorrow Part 1",
+    src: "./music/HoliznaCC0 - Exploring Tomorrow Part 1.mp3",
   },
   {
-    name: "How You Like Me Now",
-    src: "./mp3/How You Like Me Now.mp3",
+    name: "Everything You Ever Dreamed.",
+    src: "./music/HoliznaCC0 - Everything You Ever Dreamed..mp3",
   },
 ];
 
