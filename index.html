@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linked List Music Player</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="data:," />
+  </head>
+  <body>
+    <main class="player">
+      <!-- The text display. app.js rewrites this after every action. -->
+      <p id="nowPlaying" class="now-playing" aria-live="polite">Loading...</p>
+
+      <div class="controls">
+        <button id="prevBtn" type="button">◀◀</button>
+        <button id="playBtn" type="button">Play</button>
+        <button id="nextBtn" type="button">▶▶</button>
+        <button id="reBtn" type="button">
+          <span id="reSpin">&olarr;</span>
+        </button>
+      </div>
+      <audio id="music" controls>here</audio>
+
+      <!-- Bonus: a picture of the whole list so you can see the cursor move and wrap. -->
+      <ol id="playlist" class="playlist" aria-label="Playlist"></ol>
+    </main>
+
+    <!-- Order matters: the data structure must load before the code that uses it. -->
+    <script src="linked-list.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
